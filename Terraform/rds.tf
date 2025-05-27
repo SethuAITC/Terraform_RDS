@@ -9,7 +9,7 @@ resource "aws_db_instance""myrds" {
   identifier = "mydb"
   username = "admin"
   password = "password!123"
-  publicly_available = true
+  publicly_accessible = true
   skip_final_snapshot = true
 
   tags = {
